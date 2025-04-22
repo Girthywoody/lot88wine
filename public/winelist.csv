@@ -1,0 +1,65 @@
+VARIETAL,WINE COLOR,WINE NAME,IMAGE,MADE IN,SYTLE,DESCRIPTION,SWEETNESS,ALCOHOL,FOOD PAIRING,WINE ID
+MERLOT,RED,WAYNE GRETZKY NO.99 VQA,https://aem.lcbo.com/content/dam/lcbo/products/0/6/3/9/063966.jpg.thumb.2048.2048.jpg,ONTARIO,MEDIUM-BODIED FRUITY,"Medium ruby in color; aromas and flavours of red cherry with hints of vanilla; dry,
+medium-bodied, well structured.",2 out of 5  6g/L,12.80%,"STUFFED MUSHROOMS, GARLIC BREAD, FILET",1
+MERLOT,RED,CK MONDAVI,https://www.vivino.com/CA/en/ck-mondavi-merlot/w/1440031?srsltid=AfmBOoquvclR58W-1-g0bXRk6UKhKpcynuPxGnzz0azw8E_XFDzwwXfL,"CALIFORNIA, USA",MEDIUM-BODIED FRUITY,"DARK FLAVOURS OF CLOVE, TEA AND CHERRY",2 out of 5 6g/L,12.80%,"BEEF, CHEDDAR CHEESES AND CHICKEN",2
+MERLOT,RED,CHATEAU GUILHEM,,FRANCE,LIGHT & FRUITY,"Light fruity flavors of red berries, with hints of liquorice.",1 OUT OF 5 2g/L,14.50%,"BAKED BRIE, HAMBURGERS",3
+PINOT NOIR,RED,ROBERT MONDAVI,https://www.saq.com/en/465435?srsltid=AfmBOorc75yGqlypMtPKKi1P7kNqACPrJzFMFTRTqhejTxSAMSORxrzo,"CALIFORNIA, USA",MEDIUM-BODIED FRUITY,"refreshing, cool-climate Pinot Noir from New Zealand offers classic flavours of
+black cherry and raspberry with earthy notes.",2 out of 5 6g/L,12.50%,"PARMESAN CHICKEN, SALMON",4
+PINOT NOIR,RED,KIM CRAWFORD,https://www.google.com/imgres?q=kim%20crawford%20pinot%20noir&imgurl=https%3A%2F%2Fimages.vivino.com%2Fthumbs%2FnD-E4sGrR8KRHzyPxo-l7Q_pl_480x640.png&imgrefurl=https%3A%2F%2Fwww.vivino.com%2FCA%2Fen%2Fkim-crawford-pinot-noir%2Fw%2F1704527&docid=6RDssyRJDxcv_M&tbnid=8IJwi3qUgex6cM&vet=12ahUKEwjduuuMndyMAxW7hIkEHaD8K7wQM3oECB0QAA..i&w=480&h=640&hcb=2&ved=2ahUKEwjduuuMndyMAxW7hIkEHaD8K7wQM3oECB0QAA,NEW ZEALAND,MEDIUM-BODIED FRUITY,"Dark red in the glass. Lifted red berry fruit aromas with dark cherry notes,
+complemented by savoury undertones and spicy oak. Ripe, dark berry flavours of blackberry
+and black currant. Subtle hints of oak help fill out the palate.",1 out of 5 3g/L,12.50%,"PARMESAN CHICKEN, SALMON",5
+PINOT NOIR,RED,"LA CREMA, SONOMA COAST",https://www.google.com/imgres?q=la%20crema%20pinot%20noir%20SONOMA%20COAST&imgurl=https%3A%2F%2Fimages.vivino.com%2Fthumbs%2FiQqGFD-qRm2FZzKDpnSx9w_pl_480x640.png&imgrefurl=https%3A%2F%2Fwww.vivino.com%2FCA%2Fen%2Fla-crema-sonoma-coast-pinot-noir%2Fw%2F9108&docid=yekn5nNd7rNy4M&tbnid=sW4hu-QUaokfSM&vet=12ahUKEwiSnLiEndyMAxVWlYkEHbBBOpsQM3oECBgQAA..i&w=480&h=640&hcb=2&ved=2ahUKEwiSnLiEndyMAxVWlYkEHbBBOpsQM3oECBgQAA,"CALIFORNIA, USA",MEDIUM-BODIED ,"Aromas of raspberry, cranberry, black licorice, and exotic tea notes.  Flavors of red
+cherry, plum, and boysenberry, subtle hints of espresso and cocoa nib underpin notes of spice
+and toast. Firm yet integrated tannins and bright acidity drives a long finish.",2 out of 5 3g/L,13.50%,"RIBS, SALMON, RIBEYE STEAK",6
+SHIRAZ & SYRAH,RED,SEASONS SHRIAZ,https://www.vivino.com/CA/en/seasons-niagara-peninsula-shiraz/w/8252212?srsltid=AfmBOoo5qYMu9KccsoacBfLT2O7ZSxLuAbgxJDTbnriciMfKhMPcrvpl,ONTARIO,FULL BODIED & FRUITY,"Deep ruby in colour, this Shiraz displays a rich bouquet of chocolate, cedar and
+black pepper combined with dark berry fruits. The palate is well structured with spice,
+chocolate, tart blackberry and a round mouth feel.",2 out of 5 3g/L,12.50%,PEPPERCORN STEAK,7
+SHIRAZ & SYRAH,RED,TALL POPPY,https://www.vivino.com/CA/en/tall-poppy-wines-hillside-shiraz/w/2197166?srsltid=AfmBOorA4_ykPQ2oXMYn9jL5pn_cKEjAa9ev0wipjRxWkLbH_pk681Zz,AUSTRILIA,MEDIUM BODIED & FRUITY,"Tall Poppy is a deep ruby/garnet in colour; blackberries and plums. Oak aromas,
+berry and spice flavours and balanced acidity with soft lingering tannins in medium length
+finish.",3 out of 5,14%,NY CALI STEAK,8
+SHIRAZ & SYRAH,RED,CHATEAU ROQUEGRAVE,https://www.wine-searcher.com/find/roquegrave+medoc+bordeaux+france/2020?srsltid=AfmBOoo1wPFMheWOBr8RBsNMwMXZxl9mhCuInM61Q9CoMHJ3F70lyRrZ,"VALEYRAC, FRANCE",MEDIUM BODIED & SMOOTH,"Chateau Roquegrave is deep ruby/garnet in colour; red fruit, oak and vanilla. Oak
+aromas, berry and spice flavours and long acidity finish.",1 out of 5 2g/L,14%,CALI PEPPERCORN STEAK,9
+MELBEC,RED,JEAN BOUSQUET,,"MENDOZA, ARGENTINA",FULL BODIED & SMOOTH,"Deep ruby purple; blackberry and plum aromas with a touch of spice; medium to
+full body with rich fruit flavour with good length; medium tannins.",1 out of 5 2g/L,14%,"BEEF, LAMB, CHICKEN",10
+MELBEC,RED,TEIA,,"MENDOZA, ARGENTINA",MEDIUM BODIED & FRUITY,Teja is lively with a stand out aroma of ripe red fruit. Soft structure with persistent smoothness. Round finish.,1 out of 5 2g/L,13.50%,"BURGERS, BUTTERNUT SQUASH RAVIOLI",11
+ALTERNATIVE WINE,RED,RUFFINO CHIANTI,,ITALY,FULL BODIED & SMOOTH,"The wine is dry, medium-bodied and well-structured. Enjoy aromas and flavours of red berry and cherry fruit, with spicy notes and a touch of pepper.
+
+",2 out of 5 3g/L,12.50%,"Ribs, Rack of Lamb, Steak",
+ALTERNATIVE WINE,RED,IL LUPO SANGIOVESE,,ITALY,MEDIUM BODIED & WELL STRUCTURED ,Il Lupo is dry and fresh. Enjoy aromas and flavours of ripe red fruit and oak spices,3 out of 5  7g/L,14.00%,"Red meat, Loaded Cheese Bread, Game Meat.",
+ALTERNATIVE WINE,RED,Zenato Valpolicella,,"VENETO, ITALY",FULL BODIED & SMOOTH,"Valpolicella A lively, youthful ruby wine with fresh cherry aromas that develop into a rich cherry pie character in the mouth.",3 out of 5 7g/L,14.00%,"Bison, Pasta or Filet",
+ALTERNATIVE WINE,RED,Montagne-St Emilion Bordeaux,,"BRODEAUX, FRANCE",FULL BODIED & SMOOTH,Montagne-St Emilion Bordeaux has an intense red berry aroma with undergrowth as well as blackberry and licorice.,1 out of 5 3g/L,14.00%,"Bison, Burgers or Sirloins",
+ALTERNATIVE WINE,RED,CastelGiocondo Burnello,,"TUSCANY, ITALY",MEDIUM BODIED & SMOOTH,"CastelGiocondo has ruby red colors with aromas of cedar, red fruit and leather.",1 out of 5 3g/L,14.50%,"Ribs, Striploin, Lamb",
+RED ZINFANDEL,RED,RAVENSWOOD,,"CALIFORNIA,USA",FULL-BODIED & SMOOTH,"A not-too-dry, juicy, red wine with ripe raspberry, boysenberry, and bramble",2 out of 5 6g/L,13.90%,FILET,
+RED ZINFANDEL,RED,SALDO,,"CALIFORNIA, USA",DRY,"Dark ruby color with bold aromas of black licorice, black pepper, cherry, and baking spice. The entry is rich, full, and scintillating. The palate is mouthwatering and smooth with a hint of chocolate. The finish is voluptuous with soft, velvety tannins.",4 out 5 (sweetest Red we carry) 20g/L,15.5,FILET,
+CABERNET SAUVIGNON,RED,WOODBRIDGE,,,,,,,,
+CABERNET SAUVIGNON,RED,TOM GORE,,,,,,,,
+CABERNET SAUVIGNON,RED,GRACEBRIDGE,,,,,,,,
+CABERNET SAUVIGNON,RED,J LOHR,,,,,,,,
+CABERNET SAUVIGNON,RED,BONTERRA,,,,,,,,
+CABERNET SAUVIGNON,RED,UNSHACKLED,,,,,,,,
+CABERNET SAUVIGNON,RED,ROBERT HALL,,,,,,,,
+CABERNET SAUVIGNON,RED,STAGS LEAP,,,,,,,,
+CABERNET SAUVIGNON,RED,CAYMUS,,,,,,,,
+CABERNET SAUVIGNON,RED,OAKVILLE,,,,,,,,
+CHARDONNAY,WHITE,SEASONS,,ONTARIO,LIGHT & CRISP,"notes of peach, honeydew melon and citrus on the nose. The palate is rich with apple, pear, honeysuckle and flinty river stone characteristics.",2 out of 5 5g/L,12%,"Lot 88 Fettuccini, Baked Salmon, Baked Brie",
+CHARDONNAY,WHITE,TOM GORE,,"CALIFORNIA, USA",DRY-MEDIUM BODIED,"Lemon, Toast, Floral
+creamy and broadly textured, with apple, tropical fruit, butter, toast, and oak spice.
+",2 out of 5 5g/L,13%,"Lobster, Scallops, Salmon",
+CHARDONNAY,WHITE,CHARLES KRUG,,"CALIFORNIA, USA",Full-bodied and rich,"Charles Krug is bursting with banana, mango, grilled pineapple and smoke flavours.",2 out of 5 4g/L,13%,"Parmesan chicken, Mussels, Oysters, Shrimp, Lobster",
+MOSCATO,WHITE,JACOBS CREEK,,AUSTRALIA,OFF-DRY & FRUITY,"Jacob’s Creek Moscato is brimming with ripe grape, lychee, tropical fruit, floral and citrus aromas. Sweet and easy drinking, with citrus, peach and tropical fruit flavours.",5 out 5 (sweetest white we carry) 64g/L,7.50%,"Desserts, Blue Cheese, Pad Thai or Fresh Salads",
+RIESLING,WHITE,WAYNE GRETZKY NO.99 VQA,,ONTARIO ,LIGHT & CRISP,"Wayne Gretzky Riesling is a very pretty wine sporting ripe peach and fresh flower aromas that follow through on the palate. Nice, crisp finish.",4 out of 5 20g/L,11.30%,"Blackened chicken, Ribs, Fish and Chips.",
+SAUVIGNON BLANC,WHITE,LIGHTHOUSE,,ONTARIO,LIGHT & CRISP,Pale lemon in colour. Intense ripe green granny smith apple aromas on the nose. More apple and fresh pineapple flavours on the palate with a lovely lingering lemony finish. Light to medium-bodied and good acidity,1 out of 5 3g/L,12.50%,"Goat Cheese, Parmesan Chicken, Seafood Fettucine",
+SAUVIGNON BLANC,WHITE,KIM CRAWFORD,,NEW ZEALAND,LIGHT & CRISP,"Aromas of tropical fruit and cut grass notes, passion fruit, citrus and ripe stone fruit.",1 out of 5 3g/L,12.50%,"Oysters, Lobster, Pad Thai",
+SAUVIGNON BLANC,WHITE,NAUTILUS,,NEW ZEALAND,LIGHT & CRISP,Natilus has intense lifted aromas of passionfruit and citrus peel and hints of honeydew melon. The palate introduces a delightful citrus based mouth-watering intensity and finishes with a strong textural component.,,,"Mussels, Oysters, Shrimp, Lobster, Goat Cheese",
+PINOT GRIGIO & PINOT GRIS,WHITE,PELEE ISLAND,,ONTARIO,LIGHT & CRISP,"Pale gold in colour. Light floral nose. Ripe pears and apricots on the palate with a nutty finish. Medium-bodied and low to medium acidity with plenty of extract, giving this wine its signature silky, rich mouth feel.",2 out of 5 6g/L,12%,"PAD THAI, PARMESAN CHICKEN",
+PINOT GRIGIO & PINOT GRIS,WHITE,RUFFINO LUMINA,,ITALY,LIGHT & CRISP,"Aromas of fresh-cut lemon, pear and a touch of honey. Vibrant and crisp on the palate, with mineral notes on a clean finish.",1 out of 5 6g/L,12%,"Lot 88 Fettuccine, Seafood Fettuccine, Fresh Salads",
+PINOT GRIGIO & PINOT GRIS,WHITE,CELIO,,ITALY,DRY,Straw yellow with green reflections and hints of bread and green apple on the nose. Clean and fresh with balanced fruit and acidity and a touch of spice on the finish.,4 out of 5 25g/L,12%,"Grilled Shrimps, Fresh Salads",
+PINOT GRIGIO & PINOT GRIS,WHITE,"PELLER ESTATES, PRIVATE RESERVE",,ONTARIO,LIGHT & CRISP,"Peller Estates has flavours of peach, Bartlett pear, yellow apple and hints of spice, this pinot is slightly rich with tons of flavour.",1 out of 5 2g/L,13%,"Salmon, Scallops, Deep-fried Mashed Potato",
+WHITE ZINFANDEL,WHITE,BERINGER,,"CALIFORNIA,USA",FRUITY & SWEET,"aromas and flavours of strawberry, fruit candy, spice and melon on a soft, medium-sweet palate.",5 out of 5 32g/L,10%,"Fresh salads, Parmesan Chicken, Sirloin",
+ROSE,WHITE,JACKSONS TRIGG,,ONATRIO,Easygoing and fruity (med sweet),"Medium pink colour; candied strawberry-cherry aromas; medium sweet, with sweet fruit flavours, with soft acidity.","Medium pink colour; candied strawberry-cherry aromas; medium sweet, with sweet fruit flavours, with soft acidity.",11.50%,"Salmon, Oysters, Lot 88 Salad",
+ROSE,WHITE,JULIETTE,,"PROVENCE, FRANCE",CRISP & DRY,"crisp rose wine that has an initial fruit-forward taste of raspberries & berries. Juliette is refreshing & elegant, bone dry rose wine, with layers of lively fruit & a bright, smooth finish just the way a true rose wine from Southern France should be.",1 out of 5 4g/L,12.50%,"grilled fish, seafood, steamed fish, lobster, shellfish",
+VIOGNIER,WHITE,YALUMBA Y SERIES,,AUSTRIALIA,Medium bodied/Dry/Soft,"Clear pale straw in colour, with forward mushroomy, yeasty, floral, herbal and honey flavours. On the palate, this supple medium-bodied viognier is extra dry, and has a soft, round texture. Flavours of mushrooms, herbs and honey lead to a long finish.",1 out of 5 4g/L,13.50%,Thai cuisine & light spiced foods,
+SPARKLING WINE,WHITE,LOLA SECCO,,ONTARIO,LIGHT & FRUITY,Lola is light and frothy while green apple and pear dance on the palate. A great choice to celebrate with friends or enjoy with a light meal.,3 out of 5 18g/L,12.50%,"Oysters, Mushrooms, Salmon",
+SPARKLING WINE,WHITE,"CEILO, PROSSECO",,ITALY,LIGHT & FRUITY,"Ceilo has aromas of lemon scone with pears, marzipan, and green apple with a silky, crisp, effervescent, dry-yet-fruity light body and a graceful, short cherry pit, pressed flowers, and tangerine spritz.",2 out of 5 15g/L,12.50%,"Salt and Pepper Calamari, Salmon, Fresh Salads",
+SPARKLING WINE,WHITE,"TRIUS, BRUT",,ONTARIO,LIGHT & FRUITY,"Trius Brut is refreshing with a creamy delicate mousse, flavours of citrus, and apple linger.",1 out of 5 8g/L,12.50%,"Escargot, Stuffed Mushrooms",
+SPARKLING WINE,WHITE,"PIPER HEIDSIECK BRUT, CHAMPANGE",,FRANCE,LIGHT & FRUITY,"Piper Heidsieck is a pale lemon yellow in colour, this classic sparkling wine bursts with notes of spice, toasted brioche and lemon curd.",1 out of 5 10g/L,12%,"Mussels, Oysters",
