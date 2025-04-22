@@ -246,16 +246,17 @@ const filteredWines = wines.filter(wine => {
 
   return (
     <div className="max-w-md mx-auto bg-gray-100 min-h-screen pb-8">
-      <header className="bg-red-900 text-white p-4 shadow-md">
-        <h1 className="text-2xl font-bold text-center">Lot 88 Wine Guide</h1>
+      <header className="bg-red-900 text-white p-6 shadow-lg rounded-b-lg">
+        <h1 className="text-2xl font-bold text-center font-serif">Lot 88 Wine Guide</h1>
+        <p className="text-center text-sm mt-1 text-red-100">Find the perfect wine for your meal</p>
       </header>
       
       <div className="p-4">
         <div className="mb-4">
           <input
             type="text"
-            placeholder="Search wines..."
-            className="w-full p-2 border border-gray-300 rounded shadow-sm"
+            placeholder="Search wines, regions, varietals..."
+            className="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-red-300 focus:border-red-500 focus:outline-none transition-all"
             value={searchTerm}
             onChange={handleSearchChange}
           />
@@ -265,12 +266,12 @@ const filteredWines = wines.filter(wine => {
           <label htmlFor="pairingFilter" className="block text-sm font-medium text-gray-700 mb-1">
             Filter by Food Pairing
           </label>
-          <select
-            id="pairingFilter"
-            className="w-full p-2 border border-gray-300 rounded shadow-sm bg-white"
-            value={selectedPairing}
-            onChange={(e) => setSelectedPairing(e.target.value)}
-          >
+            <select
+              id="pairingFilter"
+              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm bg-white appearance-none focus:ring-2 focus:ring-red-300 focus:border-red-500 focus:outline-none transition-all"
+              value={selectedPairing}
+              onChange={(e) => setSelectedPairing(e.target.value)}
+            >
             <option value="">All Pairings</option>
             {commonPairings.map((pairing) => (
               <option key={pairing} value={pairing}>
@@ -285,9 +286,9 @@ const filteredWines = wines.filter(wine => {
             Filter by Style
           </label>
           <div className="relative" ref={dropdownRef}>
-            <button
+           <button
               type="button"
-              className="w-full p-2 border border-gray-300 rounded shadow-sm bg-white text-left flex justify-between items-center"
+              className="w-full p-3 border border-gray-300 rounded-lg shadow-sm bg-white text-left flex justify-between items-center hover:bg-gray-50 focus:ring-2 focus:ring-red-300 focus:border-red-500 focus:outline-none transition-all"
               onClick={() => setIsStyleDropdownOpen(!isStyleDropdownOpen)}
             >
               <span>{selectedStyles.length > 0 ? selectedStyles.join(', ') : 'All Styles'}</span>
@@ -323,21 +324,21 @@ const filteredWines = wines.filter(wine => {
           </div>
         </div>
         
-        <div className="flex mb-4 border-b">
+        <div className="flex mb-6 border-b">
           <button
-            className={`flex-1 py-2 font-medium ${activeTab === 'all' ? 'text-red-900 border-b-2 border-red-900' : 'text-gray-600'}`}
+            className={`flex-1 py-3 font-medium transition-all ${activeTab === 'all' ? 'text-red-900 border-b-2 border-red-900' : 'text-gray-600 hover:text-red-700'}`}
             onClick={() => setActiveTab('all')}
           >
             All Wines
           </button>
           <button
-            className={`flex-1 py-2 font-medium ${activeTab === 'red' ? 'text-red-900 border-b-2 border-red-900' : 'text-gray-600'}`}
+            className={`flex-1 py-3 font-medium transition-all ${activeTab === 'red' ? 'text-red-900 border-b-2 border-red-900' : 'text-gray-600 hover:text-red-700'}`}
             onClick={() => setActiveTab('red')}
           >
             Red
           </button>
           <button
-            className={`flex-1 py-2 font-medium ${activeTab === 'white' ? 'text-red-900 border-b-2 border-red-900' : 'text-gray-600'}`}
+            className={`flex-1 py-3 font-medium transition-all ${activeTab === 'white' ? 'text-red-900 border-b-2 border-red-900' : 'text-gray-600 hover:text-red-700'}`}
             onClick={() => setActiveTab('white')}
           >
             White
@@ -346,19 +347,24 @@ const filteredWines = wines.filter(wine => {
         
         <div className="space-y-6">
           {filteredWines.length === 0 ? (
-            <p className="text-center py-8 text-gray-500">No wines found. Try a different search.</p>
+            <div className="text-center py-16 text-gray-500 bg-white bg-opacity-50 rounded-lg shadow-sm border border-gray-200 no-results">
+            <svg className="w-12 h-12 mx-auto mb-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <p className="text-lg font-medium">No wines found</p>
+            <p className="mt-1">Try different search terms or filters</p>
+          </div>        
           ) : (
             <>
               {/* Only show Red Wine section if we have red wines and not filtering to white only */}
               {sortedRedVarietals.length > 0 && activeTab !== 'white' && (
                 <div className="mb-6">
-                  <h2 className="text-xl font-bold mb-4 bg-red-700 text-white p-2 rounded-md">Red Wines</h2>
-                  
+                  <h2 className="text-xl font-bold mb-6 bg-gradient-to-r from-red-800 to-red-600 text-white p-3 rounded-lg shadow-md">Red Wines</h2>                  
                   <div className="space-y-4 pl-2">
                     {sortedRedVarietals.map(varietal => (
                       <div key={varietal} className="space-y-4">
                         <div 
-                          className="sticky top-0 z-10 p-2 font-bold text-lg bg-red-100 rounded-md shadow-sm cursor-pointer flex justify-between items-center"
+                          className="sticky top-0 z-10 p-3 font-bold text-lg bg-red-100 rounded-lg shadow cursor-pointer flex justify-between items-center hover:bg-red-200 transition-all"
                           onClick={() => setExpandedVarietals(prev => ({...prev, [varietal]: !prev[varietal]}))}
                         >
                           <span>{varietal} ({redWinesByVarietal[varietal].length})</span>
@@ -370,11 +376,10 @@ const filteredWines = wines.filter(wine => {
                         {expandedVarietals[varietal] && redWinesByVarietal[varietal].map((wine, index) => (
                           <div 
                             key={index} 
-                            className="p-4 rounded-lg shadow-md bg-red-50"
+                            className="p-5 rounded-xl shadow-md bg-red-50 hover:shadow-lg transition-all border border-red-100 wine-card"
                           >
-                            <h2 className="text-lg font-bold">{wine.name}</h2>
-                            <div className="grid grid-cols-2 gap-2 mt-2 text-sm">
-                              <div>
+                            <h2 className="text-xl font-bold text-red-900 mb-2 font-serif">{wine.name}</h2>
+                            <div className="grid grid-cols-2 gap-3 mt-3 text-sm bg-white bg-opacity-50 p-3 rounded-lg">                              <div>
                                 <span className="font-medium">Sweetness:</span> {wine.sweetness}
                               </div>
                               <div>
@@ -404,13 +409,12 @@ const filteredWines = wines.filter(wine => {
               {/* Only show White Wine section if we have white wines and not filtering to red only */}
               {sortedWhiteVarietals.length > 0 && activeTab !== 'red' && (
                 <div>
-                  <h2 className="text-xl font-bold mb-4 bg-yellow-600 text-white p-2 rounded-md">White Wines</h2>
-                  
+                <h2 className="text-xl font-bold mb-6 bg-gradient-to-r from-yellow-700 to-yellow-500 text-white p-3 rounded-lg shadow-md">White Wines</h2>                  
                   <div className="space-y-4 pl-2">
                     {sortedWhiteVarietals.map(varietal => (
                       <div key={varietal} className="space-y-4">
                         <div 
-                          className="sticky top-0 z-10 p-2 font-bold text-lg bg-yellow-100 rounded-md shadow-sm cursor-pointer flex justify-between items-center"
+                          className="sticky top-0 z-10 p-3 font-bold text-lg bg-yellow-100 rounded-lg shadow cursor-pointer flex justify-between items-center hover:bg-yellow-200 transition-all"
                           onClick={() => setExpandedVarietals(prev => ({...prev, [varietal]: !prev[varietal]}))}
                         >
                           <span>{varietal} ({whiteWinesByVarietal[varietal].length})</span>
@@ -422,11 +426,10 @@ const filteredWines = wines.filter(wine => {
                         {expandedVarietals[varietal] && whiteWinesByVarietal[varietal].map((wine, index) => (
                           <div 
                             key={index} 
-                            className="p-4 rounded-lg shadow-md bg-yellow-50"
+                            className="p-5 rounded-xl shadow-md bg-yellow-50 hover:shadow-lg transition-all border border-yellow-100 wine-card"
                           >
                             <h2 className="text-lg font-bold">{wine.name}</h2>
-                            <div className="grid grid-cols-2 gap-2 mt-2 text-sm">
-                              <div>
+                            <div className="grid grid-cols-2 gap-3 mt-3 text-sm bg-white bg-opacity-50 p-3 rounded-lg">                              <div>
                                 <span className="font-medium">Sweetness:</span> {wine.sweetness}
                               </div>
                               <div>
